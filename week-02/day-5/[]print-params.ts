@@ -6,5 +6,5 @@
 
 let printParamas = ["plüss","mackó"];
   
-  console.log(printParamas.forEach(printParamas => printParamas.length));
+  console.log(printParamas.forEach
   
