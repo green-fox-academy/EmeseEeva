@@ -1,13 +1,20 @@
 // -  Write a function called `sum` that sum all the numbers until the given parameter
 // -  The function should return the result
 
-function sum(x:number,y:number,z:number) {
-    return x + y + z;
+let lista = [1,2,3,3,3,4,4,6,7,10]
+
+function sum()
+{
+    var i = 0;
+
+    for (i =0; i < lista.length; ++i)
+        {
+            
+        }
+        return i;
 }
 
-let result = sum(1,2,3);
-console.log (result);
-
+console.log (sum());
 
 
 
