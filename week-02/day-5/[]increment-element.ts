@@ -4,8 +4,8 @@
 
 let numList = [1, 2, 3, 4, 5];
 
-numList.forEach (elemet, index, array => {
-array[2] = e + 1 ;
-})
+
+numList[2] = numList[2]+1;
+
 
 console.log (numList);
