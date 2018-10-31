@@ -13,17 +13,16 @@ export {};
 // ** Relax, a matrix is just like an array
 
 let array1 = [];
-let row = 4;
-let col = 4;
+let size = 5;
 
-for (var i = 0; i < row; i++) {
+for (var i = 0; i < size; i++) {
     array1[i] = [];
-    for (var j = 0; j < col; j++) {
-        if (i + j === 3){
-        array1 [i][j] = "1";
+    for (var j = 0; j < size; j++) {
+        if (i + j === size-1){
+        array1 [i][j] = 1;
         }
         else {
-            array1 [i][j] = "0";
+            array1 [i][j] = 0;
         }
 }}
 
