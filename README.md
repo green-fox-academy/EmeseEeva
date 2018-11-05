@@ -6,6 +6,6 @@ my previous repos </br>
 
 [git-lesson-repository] (https://github.com/EmeseEeva/git-lesson-repository)
 
-[hello-world] (https://github.com/EmeseEeva/patchwork)
+[hello-world] (https://github.com/EmeseEeva/hello-world)
 
 [patchwork](https://github.com/EmeseEeva/patchwork)
