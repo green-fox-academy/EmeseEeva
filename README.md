@@ -2,4 +2,10 @@
 
 my previous repos </br>
 
-(https://github.com/EmeseEeva/EmeseEeva.github.io)
+[EmeseEeva.github.io](https://github.com/EmeseEeva/EmeseEeva.github.io)
+
+[git-lesson-repository] (https://github.com/EmeseEeva/git-lesson-repository)
+
+[hello-world] (https://github.com/EmeseEeva/patchwork)
+
+[patchwork](https://github.com/EmeseEeva/patchwork)
