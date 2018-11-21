@@ -10,20 +10,20 @@ class Cuboid {
     dimensionTwo: number;
     dimensionTree: number;
 
-    constructor(dimensionOne = 5, dimensionTwo = 6, dimensionTree = 15) {
+    constructor(dimensionOne: number, dimensionTwo: number, dimensionTree: number) {
         this.dimensionOne = dimensionOne;
         this.dimensionTwo = dimensionTwo;
         this.dimensionTree = dimensionTree;
     }
-    getSurface() {
+    getSurface() : number{
         let surface = 2 * (this.dimensionOne * this.dimensionTwo + this.dimensionTwo * this.dimensionTree + this.dimensionOne * this.dimensionTree);
         return surface;
     }
-    getVolume() {
+    getVolume(): number {
         let volume = this.dimensionOne * this.dimensionTwo * this.dimensionTree;
         return volume;
     }
 }
-let newCuboid = new Cuboid();
+let newCuboid = new Cuboid(5, 6, 15);
 console.log(newCuboid.getSurface());
 console.log(newCuboid.getVolume());
