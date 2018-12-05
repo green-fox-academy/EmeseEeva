@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    background-color: yellow;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .item {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    list-style-type: none;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+
+
