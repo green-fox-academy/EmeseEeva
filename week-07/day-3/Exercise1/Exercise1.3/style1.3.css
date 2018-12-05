@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .item {
+    min-width: 100px;
+    height: 100px;
+  }
+
+  .green {
+      background-color: lawngreen;
+      flex-grow: 1;
+  }
+
+  .yellow {
+      background-color: yellow;
+      flex-grow: 2;
+  }
+
+  .purple {
+    background-color: purple;
+    flex-grow: 1;
+}
+
+
+
