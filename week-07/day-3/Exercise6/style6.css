@@ -1,0 +1,126 @@
+body {
+    margin: 0 auto;
+    background: white;
+    height: 100vh;
+    max-width: 1024px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+  }
+  .black_line {
+    margin-top: 30px;
+    border-bottom: 4px solid;
+}
+  
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background: darkviolet;
+    width: 100%;
+    height: 10%;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+  
+  .mainnav {
+    list-style-type: none;
+    padding: 1%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .rightnav {
+    width: 10%;
+    list-style-type: none;
+    padding: 1%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .navitem {
+    height: 80%;
+    width: 100px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .content {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: stretch;
+  }
+  
+  .maincol {
+    flex: 1 1 auto;
+    padding: 0 2%;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between
+  }
+  
+  .text {
+    padding: 10px;
+    color: black;
+  }
+  
+  .thumbnails ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .square {
+    flex: 1 1 auto;
+    min-width: 50px;
+    min-height: 80px;
+    background: red;
+    margin: 10px;
+  }
+  
+  .doblecolumn {
+    display: flex;
+  }
+  
+  .rightcolumn {
+    min-width: 100px;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0;
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  
+  .lines ul {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 0;
+    margin: 2px 2px;
+  }
+  
+  .lines li {
+    background-color: purple;
+    min-height: 30px;
+    width: 100%;
+    margin: 2px;
+    list-style-type: none;
+  }
+  
