@@ -1,0 +1,43 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="gallery-app.css" />
+</head>
+
+<body>
+    <div class="mainwrapper">
+        <div class="welcome">
+           <!--<h1>Welcome to London</h1>-->
+        </div>
+        <div class="pictures">
+            <div class="left">
+                <button id="leftbutton" onclick="leftClick()">
+                    <img src="../day-5/if_arrow-left-01_186410.png" alt="Move left">
+                </button>
+            </div>
+            <div class="imagewrapper">
+                <img id="currentImg" class="galleryitem"></div>
+            <div class="pictureinfo">
+                <div id="currentimgTitle"></div>
+                <div id="currentimgDescription"></div>
+            </div>
+            <div class="right">
+                <button id="rightbutton" onclick="rightClick()">
+                    <img src="../day-5/if_arrow-right-01_186409.png" alt="Move right">
+                </button>
+            </div>
+        </div>
+        <div class="nav">
+
+        </div>
+    </div>
+    </div>
+</body>
+<script src="gallery-app.js"></script>
+
+</html>
