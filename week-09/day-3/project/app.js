@@ -1,10 +1,12 @@
 const express = require('express');
 const path = require('path');
+const bp = require('body-parser');
 
 const app = express();
 const PORT = 8080;
 
 app.use('/assets', express.static('assets'));
+app.use(bp());
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
@@ -46,6 +48,31 @@ app.get('/appenda/:input', (req, res) => {
     res.json(resObject);
   } else {
     res.json({ 'error': '404' });
+  }
+});
+
+const fact = (par) => {
+  if (par === 0) {
+    return 1;
+  } else { return par * fact(par - 1); }
+};
+
+const sum = (par) => {
+  let summa = 0;
+  for (let i = 0; i <= par; i++) {
+    summa += i;
+  }
+  return summa;
+};
+
+app.post('/dountil/:input', (req, res) => {
+  const input = req.params.input;
+  if (input == 'sum') {
+    res.json({ 'result': sum(req.body.until) });
+  } else if (input == 'factorial') {
+    res.json({ 'result': fact(req.body.until) });
+  } else {
+    res.json({ 'error': 'Please provide a number!' });
   }
 });
 
