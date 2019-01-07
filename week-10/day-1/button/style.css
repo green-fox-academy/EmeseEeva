@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 2, 85);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 200px auto;
+    max-width: 600px;
+}
+
+button {
+    width: 160px;
+    height: 60px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: lightslategray;
+    box-shadow: 5px 5px 3px 0px rgba(28,26,28,1);
+    letter-spacing: 2px;
+    position: relative;
+}
+
+button:hover {
+    filter: brightness(120%);
+    width: 170px;
+    height: 70px;
+  }
+  
+  button:active {
+    filter: brightness(90%);
+    outline: none;
+  }
+
+button:focus{
+    outline: none;
+}
+
+.blue {
+    background-color: rgb(1, 1, 44);
+}
+
+.green {
+    background-color: rgb(14, 190, 29);
+   }
+
+.red {
+    background-color: rgb(201, 49, 11);
+   }
+
+.light {
+    background-color: rgb(16, 205, 230);
+   }
+
+.black {
+    background-color: rgb(17, 18, 19);
+   }
+
+.white {
+    background-color: rgb(213, 232, 235);
+   }
