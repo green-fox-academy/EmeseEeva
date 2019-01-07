@@ -1,0 +1,53 @@
+body {
+    margin: 0 auto;
+    display: flex;
+}
+
+table {
+ 
+    margin-left: 300px;
+    margin-top: 90px;
+    background-color: grey;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: hidden; 
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+    position: relative;
+}
+
+th, td {
+    width: 220;
+    height: 60px;
+    border: 2px solid lightgrey;
+}
+
+thead {
+   text-align: left;
+   background-color: black;
+   color: whitesmoke;
+   letter-spacing: 1px;
+}
+
+td[data_currency]::before {
+    content: '$ ';
+}
+
+tbody tr:nth-child(n) {
+    background: grey;
+}
+
+tbody tr:nth-child(2n) {
+    background: lightgray;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+    background: rgb(35, 35, 255);
+    margin-left: 250px;
+    margin-top: 50px;
+    justify-content: center;
+    position: absolute;
+}
+
