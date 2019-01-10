@@ -1,0 +1,51 @@
+body {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    width: 600px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button {
+    flex-wrap: wrap;
+    width: 450px;
+    height: 40px;
+    align-items: center;
+    margin: 5px;
+    margin-left:40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(15, 15, 248);
+    color: snow;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+a {
+   margin-left: 250px;
+}
